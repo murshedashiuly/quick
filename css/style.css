@@ -1,0 +1,189 @@
+/*common start*/
+body{
+	padding:0;
+	margin:0;
+}
+/*common end*/
+/*header start*/
+header{
+	padding:20px 0;
+	border:1px solid #eef0f3;
+
+
+}
+.container {
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;
+}
+/*logo start*/
+
+.logo {
+	float:left;
+	width:10%;
+	margin-top: 3px;
+	
+}
+.logo a img{
+	width:100%;
+    
+}
+/*logo end*/
+
+/*menu start*/
+
+.menu {
+	float:right;
+	width:50%;
+	
+
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	list-style:none;
+}
+.menu ul li a{
+	text-decoration:none;
+	margin:0 15px;
+	display:inline-block;
+	text-transform:capitalize;
+	font-size:18px;
+	color:#0f2656;
+}
+.menu ul li a:hover{
+	color:#0087ff;
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+/*menu end*/
+/*header end*/
+
+/*banner start*/
+.banner{}
+.container2{
+	width:60%;
+	margin:0 auto;
+}
+.b_text{
+	
+	text-align:center;
+
+}
+.b_text h1{
+	color: #041c4e;
+	padding: 30px 90px;
+    margin: 0;
+    font-size: 50px;
+    line-height: 65px;
+    
+}
+.b_text h1 span{
+	color:#0083ff;
+}
+.b_text p{
+    margin: 0 28px;
+
+}
+.b_img{
+	width: 60%;
+    margin: 20px auto;
+}
+.b_img img{
+	width: 100%
+}
+/*banner end*/
+
+/*success start*/
+.success{}
+.s_content{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.s_left{
+   float: left;
+    width: 48%;
+    /*border: 1px solid red;*/
+}
+.s_left h2{
+	font-size: 40px;
+    float: right;
+    margin: 32px 0 0 0;
+    color:#f05363;
+}
+	
+.s_left p{
+	float: right;
+    /*border: 1px solid;*/
+    font-size: 15px;
+    color: #0f2656;
+    margin: 0;
+}
+.s_right{
+	float: right;
+    width: 48%;
+    /*border: 1px solid red;*/
+    font-size: 27px;
+    color: #0f2656;
+}
+
+/*success end*/
+
+/*service start*/
+
+.service{}
+.ser_content{
+	margin:0 auto;
+	overflow: hidden;
+	margin-bottom: 42px;
+
+}
+.red{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.single{
+	float: left;
+    width: 30%;
+    margin-right: 42px;
+    padding: 6px;
+}
+.single:last-child{
+	margin-right: 0;
+}
+.s_img{
+padding-top: 15px;
+	}
+.s_img img{
+	width:100%;
+}
+.s_text{
+	padding: 16px;
+}
+.s_text h1{
+	font-size:20px;
+}
+.s_text p{
+	font-size:18px;
+}
+
+/*service end*/
+/*footer strt*/
+footer{
+	text-align:center;
+	background-color: #008aff;
+}
+footer p{
+	color:#96ccff;
+}
+footer p a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/*footer end*/
